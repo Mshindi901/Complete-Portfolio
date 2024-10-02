@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: black;
+}
+.nav-bar{
+    background: transparent;
+    margin-left: 50%;
+    margin-top: -65px;
+    margin-bottom: 15%;
+}
+.nav-bar nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 15px;
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+.icons{
+    margin-left: 80%;
+    margin-top: -15px;
+    color: white;
+}
+.wrapper-one{
+    box-sizing: border-box;
+    margin-left: 25px;
+    margin-top: -22%;
+    background: transparent;
+    height: 40vh;
+    width: 100vh;
+}
+.wrapper-one h1{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 40px;
+    color: white;
+}
+.wrapper-one .sir-name{
+    color: red;
+}
+.wrapper-one p{
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+}
+.profile img{
+    margin-top: 45px;
+    margin-left: 80%;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
